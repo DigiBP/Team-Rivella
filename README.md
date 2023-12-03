@@ -51,12 +51,16 @@ Business process modelling has been recognized as an important means in the reor
 ![_faf03874-6898-4446-8294-eac21516b909](https://github.com/DigiBP/Team-Rivella/assets/149072194/10ab3ae0-4a32-479b-9d52-ae8e7858f195)
 
 
-### Fetch data
+### External worker - check study eligibility based on EHR data
+The external worker accesses the EHR API based on user & password input.
 Client side, fetches patient information
 Update url according to api url
 
-Simulates EHR database, providing patient information for users with password access.
-First import databases with pandas, then run functions, and finally run the flask api
+### Flask API - acting as EHR database
+
+Simulates EHR database, providing patient medical records to users with password access.
+The API routes are secured by JWT authentication. Using JWT authentity the user only receives the medical data he's allowed to access.
+Getting basic patient information such as last name, first name, date of birth can be achieved via "/patient_data". Lab data can be accessed via "/lab_data".
 
 ## Discussion and Conclusion
 

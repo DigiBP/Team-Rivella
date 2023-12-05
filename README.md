@@ -1,8 +1,15 @@
-# Team-Rivella - The Digitalisation of Business Processes in Clinical Trials 
+# Team - Rivella - The Digitalisation of Business Processes in Clinical Trials
+![_82635ccd-6750-4688-8faa-274657f6dd49](https://github.com/DigiBP/Team-Rivella/assets/149072194/d2bd0693-bb4b-44e5-b34f-d3c5f186c4ca)
 
-![_2342b331-8bbe-4388-95ea-8c20582a2048](https://github.com/DigiBP/Team-Rivella/assets/149072194/073dfa8e-6d5f-4ab9-a844-703eae8864cc)
+- [Team Members](#team-members-👨🏽‍⚕👨🏽‍⚕️👩🏻‍⚕️👨🏽‍⚕️) 
+- [Coaches](#coaches) 
+- [Introduction](#introduction)
+-
+-
+-
 
-## Team-Members
+
+## Team-Members👨🏻‍⚕️👨🏼‍⚕️👩🏻‍⚕️👨🏽‍⚕️
 |Name|Email|
 |----------|---------------|
 |Prerna Duhan|prerna.duhan@students.fhnw.ch|
@@ -11,8 +18,8 @@
 |Tim Frietsch|tim.frietsch@students.fhnw.ch|
 
 ## Links🔗
-- API:  (Latest Version)
-- Camunda Rest-API:
+- API:(Latest Version)
+- Camunda:
 - Make [..]
 - 
 
@@ -32,37 +39,36 @@ Business process modelling has been recognized as an important means in the reor
 - Shorten Clinical Trial Timelines
 - Reduce Costs
   
-
 ### Project Goals
 1. Automation and optimization of the patient screening and patient recruitment process in Phase 1 clinical trials 
 2. Digitize a patient database to ease updates and clinical trial assessment
 
+## As-Is Process
+
+## To-Be Process
+
+### Benefits
+
+### Technologies
+- Camunda
+- Make
+- Google Sheets
+- Google Forms
+- 
+
+### Process Flow 
+
+### Make Scenarios
 
 ## Methods
-![_82635ccd-6750-4688-8faa-274657f6dd49](https://github.com/DigiBP/Team-Rivella/assets/149072194/d2bd0693-bb4b-44e5-b34f-d3c5f186c4ca)
+
 
 
 ### BPM Process
 
 
 
-
-## Results
-![_faf03874-6898-4446-8294-eac21516b909](https://github.com/DigiBP/Team-Rivella/assets/149072194/10ab3ae0-4a32-479b-9d52-ae8e7858f195)
-
-
-### External worker - check study eligibility based on EHR data
-The external worker accesses the EHR API based on user & password input.
-Client side, fetches patient information
-Update url according to api url
-
-### Flask API - acting as EHR database
-
-Simulates EHR database, providing patient medical records to users with password access.
-The API routes are secured by JWT authentication. Using JWT authentity the user only receives the medical data he's allowed to access.
-Getting basic patient information such as last name, first name, date of birth can be achieved via "/patient_data". Lab data can be accessed via "/lab_data".
-
-## Discussion and Conclusion
+## Conclusion
 
 ![_562d77fa-c84d-4f87-baeb-c97dc1ce00d4](https://github.com/DigiBP/Team-Rivella/assets/149072194/9abccddc-c1ed-4577-acbd-eff3f78e1205)
 

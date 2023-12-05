@@ -17,11 +17,12 @@
 |Tim Frietsch|tim.frietsch@students.fhnw.ch|
 
 ## Links🔗
-- API:(Latest Version)
-- Camunda:
-- Make:
-- Make:
-- Google Forms: 
+- API Deepnote(Latest Version): 
+- Camunda Model:
+- Make (1):
+- Make (2):
+- Google Forms (Informed Consent Form):
+- Google Sheet (Patient Database):  
 
 
 ## Coaches
@@ -39,9 +40,7 @@ Business process modelling has been recognized as an important means in the reor
 - Shorten Clinical Trial Timelines
 - Reduce Costs
 
-Digitalized patient recruitment for clinical trials can accelerate clinical trial timelines, increase patient recruitment and acclerate patient screening timelines. Digitizing the recruitment worflow allows for 
 
-  
 ### Project Goals
 
 Automation and optimization of the patient screening and patient recruitment process in Phase 1 clinical trials 
@@ -62,11 +61,12 @@ Automation and optimization of the patient screening and patient recruitment pro
 
 ### Make Scenarios
 
+1. Sending an Email: Are you eligible for this clinical trial?
 ![Screenshot 2023-12-05 211140](https://github.com/DigiBP/Team-Rivella/assets/149072194/7195242d-ede7-4f7e-96a7-7727d3de0821)
 
-
+2. Fill out Informed Consent Form (ICF) and add information to the patient database (Google sheet), data base updating 
+Clinical trial participation conformation  
 ![Screenshot 2023-12-05 210233](https://github.com/DigiBP/Team-Rivella/assets/149072194/36a79d03-38b8-4eaa-bdf4-1a105426e3b1)
-
 
 ### External worker - check study eligibility based on EHR data
 - The external worker accesses the EHR API based on user & password input.
@@ -87,7 +87,7 @@ Automation and optimization of the patient screening and patient recruitment pro
 ## References 
 1. Kandi, V., & Vadakedath, S. (2023). Clinical trials and clinical research: A comprehensive review. Cureus, 15(2). https://doi.org/10.7759/cureus.35077
 2. Rohilla, A., Singh, R. K., Sharma, D., Keshari, R., & Kushnoor, A. (2013). Phases of clinical trials: A review. Ijpcbs.com. https://www.ijpcbs.com/articles/phases-of-clinical-trials-a-review.pdf
-3. 
+
 
 ## Disclaimer 
 - 

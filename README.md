@@ -68,15 +68,15 @@ Automation and optimization of the patient screening and patient recruitment pro
 Clinical trial participation conformation  
 ![Screenshot 2023-12-05 210233](https://github.com/DigiBP/Team-Rivella/assets/149072194/36a79d03-38b8-4eaa-bdf4-1a105426e3b1)
 
-### External worker - check study eligibility based on EHR data
-- The external worker accesses the EHR API based on user & password input.
-- Client side, fetches patient information
-- Update url according to api url
-
 ### Flask API - acting as EHR database
-- Simulates EHR database, providing patient medical records to users with password access.
-- The API routes are secured by JWT authentication. Using JWT authentity the user only receives the medical data he's allowed to access.
-- Getting basic patient information such as last name, first name, date of birth can be achieved via "/patient_data". Lab data can be accessed via "/lab_data".
+Simulates EHR database, providing patient medical records to users with password access. The API routes are secured by JWT authentication. Using JWT authentity the user only receives the medical data he's allowed to access. Getting basic patient information such as last name, first name, date of birth can be achieved via "/patient_data". Lab data is accessed via "/lab_data".
+
+### External worker - check study eligibility based on EHR data
+The external worker is provided with a username, password, EHR API URL and clinical trial number through camunda input. The external worker executes a post request to retrieve the user-specific access token from the EHR API. This authentication token is then used to access and retrieve patient-specific EHR data.
+In a second step, the patient's medical history is extracted and compared with the specific requirements of the clinical trial. If the requirements of the study are met, the patient is classified as eligible. Basic patient information (patient ID, name, date of birth) and study eligibility are sent back to the camunda process as variables.
+
+Depending on the clinical trial number, this worker can quickly and easily assess patient eligibility.
+
 
 ## Conclusion
 

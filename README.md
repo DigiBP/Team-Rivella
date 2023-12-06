@@ -1,14 +1,21 @@
 # Team - Rivella - The Digitalisation of Business Processes in Clinical Trials
-![_82635ccd-6750-4688-8faa-274657f6dd49](https://github.com/DigiBP/Team-Rivella/assets/149072194/d2bd0693-bb4b-44e5-b34f-d3c5f186c4ca)
-
-- [Team Members](#team-members-👨🏽‍⚕👨🏽‍⚕️👩🏻‍⚕️👨🏽‍⚕️) 
+- [Team Members](#team-members-👨🏻‍⚕️👨🏼‍⚕️👩🏻‍⚕️👨🏽‍⚕️) 
 - [Coaches](#coaches) 
 - [Introduction](#introduction)
--
+- [Project Goals](#project-goals)
+- [Process Flow](#process-flow)  
+- [How to run](#how-to-run)
+- [To-Be Process](#to-be-process)
+- [Make Scenarios](#make-scenarios)
+- [Flask API - acting as EHR database](#flask-api---acting-as-ehr-database)
+- [Technologies](#technologies)
+- [Conclusion](#conclusion)
+- [References](#references)
+- [Disclaimer](#disclaimer)
 
+![_82635ccd-6750-4688-8faa-274657f6dd49](https://github.com/DigiBP/Team-Rivella/assets/149072194/d2bd0693-bb4b-44e5-b34f-d3c5f186c4ca)
 
-
-## Team-Members👨🏻‍⚕️👨🏼‍⚕️👩🏻‍⚕️👨🏽‍⚕️
+## Team Members👨🏻‍⚕️👨🏼‍⚕️👩🏻‍⚕️👨🏽‍⚕️
 |Name|Email|
 |----------|---------------|
 |Prerna Duhan|prerna.duhan@students.fhnw.ch|
@@ -23,7 +30,6 @@
 - Make (2):
 - Google Forms (Informed Consent Form):
 - Google Sheet (Patient Database):  
-
 
 ## Coaches
 - Charuta Pande
@@ -42,24 +48,37 @@ Business process modelling has been recognized as an important means in the reor
 
 A major contributor to clinical trial delays and a failure to reach clinical research targets is not reaching patient recruitment targets. Our research indicates that leveraging digital strategies for patient recruitment in clinical trials can expedite the recruitment process and potentially mitigate trial delays (Katz et. al., 2019). Digitalzed patient recruitment is not only more time-efficient but also more cost-effective compared to traditional offline methods (Brøgger-Mikkelsen et.al., 2020).  
 
-### Project Goals
+### Project Goals 🎯
 
-Automation and optimization of the patient screening and patient recruitment process in clinical trials by leveraging the patient's electronic health record (EHR)
+Automation and optimization of the patient screening and patient recruitment process in Phase 1 clinical trials by leveraging data from the patient's electronic health record (EHR).
 
 
 ## Process Flow  
 
-###Camunda Process
-![Screenshot 2023-12-05 210557](https://github.com/DigiBP/Team-Rivella/assets/149072194/f1afaa6f-ab1d-471f-879e-1324491f2c88)
+
+### How to run 🚀
+1. Start (User Information)
+2. Open 
+3. User tasks and Recieving Emails
+
+### Issues with the current Clinical Trial process 🐛
+
+
+
+### To-Be Process
+
 
 
 ### Make Scenarios
 
 1. Sending an Email: Are you eligible for this clinical trial?
+ An email is sent to a potential volunteer, "Do you want to participate in Clinical Trial 1?". Once the potential volunteer provides their consent, their eligibility for the participating in the trial is checked.
+
 ![Screenshot 2023-12-05 211140](https://github.com/DigiBP/Team-Rivella/assets/149072194/7195242d-ede7-4f7e-96a7-7727d3de0821)
 
-2. Fill out Informed Consent Form (ICF) and add information to the patient database (Google sheet), data base updating 
-Clinical trial participation conformation  
+2. Clinical trial participation conformation  
+Once the elgibility of the volunteer is confirmed, they recieve an Informed Consent Form (ICF) to fill out. Their information is stored on a patient database in a tabular form automatically. The database updates every 15 minutes to check for new changes.
+
 ![Screenshot 2023-12-05 210233](https://github.com/DigiBP/Team-Rivella/assets/149072194/36a79d03-38b8-4eaa-bdf4-1a105426e3b1)
 
 ### Flask API - acting as EHR database
@@ -71,7 +90,7 @@ In a second step, the patient's medical history is extracted and compared with t
 
 Depending on the clinical trial number, this worker can quickly and easily assess patient eligibility.
 
-### Benefits
+### Benefits ✅
 
 ### Technologies
 - Camunda
@@ -82,10 +101,12 @@ Depending on the clinical trial number, this worker can quickly and easily asses
 
 
 ## Conclusion
-
 ![_562d77fa-c84d-4f87-baeb-c97dc1ce00d4](https://github.com/DigiBP/Team-Rivella/assets/149072194/9abccddc-c1ed-4577-acbd-eff3f78e1205)
 
+Through this project, under the leadership of our coaches Andreas Martin and Charuta Pande, our team aimed to optimize and shorten Phase 1 clinical trial timelines by improving patient recruitment timelines. The current clinical trial process requires a lot of manual documentation and screening patients singularly in a time consuming manner. To overcome these challenges, we introduced an automated and digitalized patient screening and patient recruitment workflow, which is cost-effective and easy to integrate. This ease would push for online recruitment campaigns that would be primary strategies to maximize recruitment rates. 
+We hope to integrate this model for larger Phase 2, Phase 3 and Phase 4 clinical trials, additionally automating other clinical trial documentation and regulatory documentation. This would create a centralized system for clients and regulators to integrate in their companies, ensuring effective communication between patients and stakeholders. 
 
+In conclusion, a digitalized and automated patient screening and recruitment process can effectively shorten clinical trial timelines, providing patients with efficacious drugs in a timely manner. 
 
 ## References 
 1. Kandi, V., & Vadakedath, S. (2023). Clinical trials and clinical research: A comprehensive review. Cureus, 15(2). https://doi.org/10.7759/cureus.35077 
@@ -95,6 +116,7 @@ Depending on the clinical trial number, this worker can quickly and easily asses
 5. Pufahl, L., Zerbato, F., Weber, B., & Weber, I. (2022). BPMN in healthcare: Challenges and best practices. Information Systems, 107(102013), 102013. https://doi.org/10.1016/j.is.2022.102013 
 
 
+Despite this recommendation, effective implementation of online recruitment methods demands swift engagement of patients in the recruitment process. Additionally, it is imperative to ensure that individuals transitioning from the digital platform are promptly contacted and scheduled for a screening visit. Neglecting this aspect could render the online recruitment method inefficient and compromise its effectiveness. 
 ## Disclaimer 
 - 
 

@@ -117,7 +117,7 @@ In conclusion, a digitalized and automated patient screening and recruitment pro
 4. Brøgger-Mikkelsen, M., Ali, Z., Zibert, J. R., Andersen, A. D., & Thomsen, S. F. (2020). Online patient recruitment in clinical trials: Systematic review and meta-analysis. Journal of Medical Internet Research, 22(11), e22179. https://doi.org/10.2196/22179 
 5. Pufahl, L., Zerbato, F., Weber, B., & Weber, I. (2022). BPMN in healthcare: Challenges and best practices. Information Systems, 107(102013), 102013. https://doi.org/10.1016/j.is.2022.102013 
 
-## Disclaimer 
+## Disclaimer 📝
 - 
 
  

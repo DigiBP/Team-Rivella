@@ -62,13 +62,23 @@ Automation and optimization of the patient screening and patient recruitment pro
 3. User tasks and Recieving Emails
 
 ### Issues with the current Clinical Trial process 🐛
+1. Patient Engagement and Communication:
+- Limited patient awareness and engagement in clinical trials.
+- Ineffective communication between researchers, sponsors, and participants.
+  
+2. Technological Integration:
+- The need for better integration of technology in the clinical trial process, including electronic health records (EHRs) and digital data collection methods.
+  
+3. Costs and Resource Allocation:
+- High costs associated with clinical trial conduct and management.
+- Efficient allocation of resources, including personnel and funding.
 
-
+4. Complex Protocols:
+- Overly complex study protocols that can lead to challenges in execution and understanding.
 
 ### To-Be Process
 
 <img width="1100" alt="MicrosoftTeams-image (2)" src="https://github.com/DigiBP/Team-Rivella/assets/149072194/7ba7bd1a-8985-4c69-9eac-e6d4ab0d2d0e">
-
 
 
 ### Make Scenarios
@@ -86,6 +96,7 @@ Once the elgibility of the volunteer is confirmed, they recieve an Informed Cons
 ### Flask API - acting as EHR database
 Simulates EHR database, providing patient medical records to users with password access. The API routes are secured by JWT authentication. Using JWT authentity the user only receives the medical data he's allowed to access. Getting basic patient information such as last name, first name, date of birth can be achieved via "/patient_data". Lab data is accessed via "/lab_data".
 
+
 ### External worker - check study eligibility based on EHR data
 The external worker is provided with a username, password, EHR API URL and clinical trial number through camunda input. The external worker executes a post request to retrieve the user-specific access token from the EHR API. This authentication token is then used to access and retrieve patient-specific EHR data.
 In a second step, the patient's medical history is extracted and compared with the specific requirements of the clinical trial. If the requirements of the study are met, the patient is classified as eligible. Basic patient information (patient ID, name, date of birth) and study eligibility are sent back to the camunda process as variables.
@@ -93,6 +104,8 @@ In a second step, the patient's medical history is extracted and compared with t
 Depending on the clinical trial number, this worker can quickly and easily assess patient eligibility.
 
 ### Benefits ✅
+
+
 
 ### Technologies
 - Camunda

@@ -69,7 +69,7 @@
     <bpmn:userTask id="Activity_0qxn547" name="Show message">
       <bpmn:extensionElements>
         <camunda:formData>
-          <camunda:formField id="message" label="Show message" type="string" />
+          <camunda:formField id="message1" label="Show message" type="string" />
         </camunda:formData>
       </bpmn:extensionElements>
       <bpmn:incoming>Flow_1hxyeoe</bpmn:incoming>
@@ -79,6 +79,13 @@
       <bpmn:incoming>Flow_0fs5ysh</bpmn:incoming>
     </bpmn:endEvent>
     <bpmn:sendTask id="Activity_0yacndx" name="Inform patient / send ICF" camunda:type="external" camunda:topic="EligibilityYes">
+      <bpmn:extensionElements>
+        <camunda:executionListener delegateExpression="${notify}" event="start">
+          <camunda:field name="URL">
+            <camunda:string>https://hook.eu2.make.com/enac33pep4l5kjx0synn05xtkkw7ed83</camunda:string>
+          </camunda:field>
+        </camunda:executionListener>
+      </bpmn:extensionElements>
       <bpmn:incoming>Flow_1ubkc2o</bpmn:incoming>
       <bpmn:outgoing>Flow_1rxvsju</bpmn:outgoing>
     </bpmn:sendTask>

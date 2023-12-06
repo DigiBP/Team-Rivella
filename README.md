@@ -40,24 +40,17 @@ Business process modelling has been recognized as an important means in the reor
 - Shorten Clinical Trial Timelines
 - Reduce Costs
 
+A major contributor to clinical trial delays and a failure to reach clinical research targets is not reaching patient recruitment targets. Our research indicates that leveraging digital strategies for patient recruitment in clinical trials can expedite the recruitment process and potentially mitigate trial delays (Katz et. al., 2019). Digitalzed patient recruitment is not only more time-efficient but also more cost-effective compared to traditional offline methods (Brøgger-Mikkelsen et.al., 2020).  
 
 ### Project Goals
 
 Automation and optimization of the patient screening and patient recruitment process in Phase 1 clinical trials 
 
+## Process Flow  
 
-## Camunda Process
+###Camunda Process
+![Screenshot 2023-12-05 210557](https://github.com/DigiBP/Team-Rivella/assets/149072194/f1afaa6f-ab1d-471f-879e-1324491f2c88)
 
-### Benefits
-
-### Technologies
-- Camunda
-- Make
-- Google Sheets
-- Google Forms
-- 
-
-### Process Flow 
 
 ### Make Scenarios
 
@@ -77,6 +70,14 @@ In a second step, the patient's medical history is extracted and compared with t
 
 Depending on the clinical trial number, this worker can quickly and easily assess patient eligibility.
 
+### Benefits
+
+### Technologies
+- Camunda
+- Make
+- Google Sheets
+- Google Forms
+
 
 ## Conclusion
 
@@ -85,8 +86,11 @@ Depending on the clinical trial number, this worker can quickly and easily asses
 
 
 ## References 
-1. Kandi, V., & Vadakedath, S. (2023). Clinical trials and clinical research: A comprehensive review. Cureus, 15(2). https://doi.org/10.7759/cureus.35077
-2. Rohilla, A., Singh, R. K., Sharma, D., Keshari, R., & Kushnoor, A. (2013). Phases of clinical trials: A review. Ijpcbs.com. https://www.ijpcbs.com/articles/phases-of-clinical-trials-a-review.pdf
+1. Kandi, V., & Vadakedath, S. (2023). Clinical trials and clinical research: A comprehensive review. Cureus, 15(2). https://doi.org/10.7759/cureus.35077 
+2. Rohilla, A., Singh, R. K., Sharma, D., Keshari, R., & Kushnoor, A. (2013). Phases of clinical trials: A review. Ijpcbs.com. https://www.ijpcbs.com/articles/phases-of-clinical-trials-a-review.pdf 
+3. Katz, B. E., Aleksander, E., Valerija, M., & Zibert, J. R. (2019, January 4). Optimize clinical trial recruitment with digital platforms. Dermatology Times. https://www.dermatologytimes.com/view/optimize-clinical-trial-recruitment-digital-platforms 
+4. Brøgger-Mikkelsen, M., Ali, Z., Zibert, J. R., Andersen, A. D., & Thomsen, S. F. (2020). Online patient recruitment in clinical trials: Systematic review and meta-analysis. Journal of Medical Internet Research, 22(11), e22179. https://doi.org/10.2196/22179 
+5. Pufahl, L., Zerbato, F., Weber, B., & Weber, I. (2022). BPMN in healthcare: Challenges and best practices. Information Systems, 107(102013), 102013. https://doi.org/10.1016/j.is.2022.102013 
 
 
 ## Disclaimer 

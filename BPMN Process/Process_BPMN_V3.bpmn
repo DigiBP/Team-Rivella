@@ -96,7 +96,7 @@
     <bpmn:endEvent id="Event_0h4u5ya">
       <bpmn:extensionElements>
         <camunda:executionListener delegateExpression="${notify}" event="start">
-          <camunda:field name="URL_no">
+          <camunda:field name="URL">
             <camunda:string>https://hook.eu2.make.com/zeznn8tfb9hholh256vv66iyalyglhtf</camunda:string>
           </camunda:field>
         </camunda:executionListener>

@@ -44,7 +44,8 @@ A major contributor to clinical trial delays and a failure to reach clinical res
 
 ### Project Goals
 
-Automation and optimization of the patient screening and patient recruitment process in Phase 1 clinical trials 
+Automation and optimization of the patient screening and patient recruitment process in clinical trials by leveraging the patient's electronic health record (EHR)
+
 
 ## Process Flow  
 
@@ -77,6 +78,7 @@ Depending on the clinical trial number, this worker can quickly and easily asses
 - Make
 - Google Sheets
 - Google Forms
+- Deepnote (for Python programming - Flask API / External worker)
 
 
 ## Conclusion

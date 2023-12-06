@@ -7,7 +7,7 @@
 - [How to run](#how-to-run)
 - [To-Be Process](#to-be-process)
 - [Make Scenarios](#make-scenarios)
-- [Flask API - acting as EHR database](#flask-api---acting-as-ehr-database)
+- [Flask API - acting as EHR database](#flask-api-acting-as-ehr-database)
 - [Technologies](#technologies)
 - [Conclusion](#conclusion)
 - [References](#references)
@@ -67,6 +67,8 @@ Automation and optimization of the patient screening and patient recruitment pro
 
 ### To-Be Process
 
+<img width="1100" alt="MicrosoftTeams-image (2)" src="https://github.com/DigiBP/Team-Rivella/assets/149072194/7ba7bd1a-8985-4c69-9eac-e6d4ab0d2d0e">
+
 
 
 ### Make Scenarios
@@ -115,8 +117,6 @@ In conclusion, a digitalized and automated patient screening and recruitment pro
 4. Brøgger-Mikkelsen, M., Ali, Z., Zibert, J. R., Andersen, A. D., & Thomsen, S. F. (2020). Online patient recruitment in clinical trials: Systematic review and meta-analysis. Journal of Medical Internet Research, 22(11), e22179. https://doi.org/10.2196/22179 
 5. Pufahl, L., Zerbato, F., Weber, B., & Weber, I. (2022). BPMN in healthcare: Challenges and best practices. Information Systems, 107(102013), 102013. https://doi.org/10.1016/j.is.2022.102013 
 
-
-Despite this recommendation, effective implementation of online recruitment methods demands swift engagement of patients in the recruitment process. Additionally, it is imperative to ensure that individuals transitioning from the digital platform are promptly contacted and scheduled for a screening visit. Neglecting this aspect could render the online recruitment method inefficient and compromise its effectiveness. 
 ## Disclaimer 
 - 
 

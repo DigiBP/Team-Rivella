@@ -35,7 +35,7 @@
 - Charuta Pande
 - Andreas Martin
 
-## Introduction 
+## Introduction 🔍
 
 Clinical research involves the examination of various elements related to a disease, such as its symptoms, risk factors, and pathophysiology. Clinical Trials are interventional investigations conducted on human volunteers and patients to evaluate the effectiveness of a therapetuic drug or medical device (Kandi & Vadakedath, 2023). Clinical trials include various phases starting from Phase 0, performing pharmacokinetic and pharmacodynamic analysis. Phase 1 is conducted in 10-100 healthy volunteers to to establish safety and the maximum tolerated dose (MTD). Phase 2 trials is conducted in a sample size of 100-300 patients, to establish the efficacy of the medical intervention. Phase 3 trials are conducted on 1000-3000 patients to confirm the safety and efficacy, and establish the efficacy of the drug. Finally, in Phase 4 post-marketing studies, the drug effect is monitered in the real world to determine drug-drug interactions and drug-disease interactions. 
 
@@ -52,9 +52,7 @@ A major contributor to clinical trial delays and a failure to reach clinical res
 
 Automation and optimization of the patient screening and patient recruitment process in Phase 1 clinical trials by leveraging data from the patient's electronic health record (EHR).
 
-
-## Process Flow  
-
+## Process Flow 
 
 ### How to run 🚀
 1. Start (User Information)
@@ -104,10 +102,12 @@ In a second step, the patient's medical history is extracted and compared with t
 Depending on the clinical trial number, this worker can quickly and easily assess patient eligibility.
 
 ### Benefits ✅
+1. Potentially shortens clinical trial timelines
+2. Increases volunteer and patient engagement in Phase 1 safety trials
+3. Reduces clinical trial management and conduct costs
+4. Leverages technology
 
-
-
-### Technologies
+### Technologies 🌐
 - Camunda
 - Make
 - Google Sheets
@@ -123,7 +123,10 @@ We hope to integrate this model for larger Phase 2, Phase 3 and Phase 4 clinical
 
 In conclusion, a digitalized and automated patient screening and recruitment process can effectively shorten clinical trial timelines, providing patients with efficacious drugs in a timely manner. 
 
-## References 
+## Acknowledgments 🙏
+We are grateful to our incredible coaches and mentors, Andreas Martin and Charuta Pande. Thank you for generously sharing your knowledge, wisdom, and expertise, helping us improve our process through each stage. 
+
+## References 📚
 1. Kandi, V., & Vadakedath, S. (2023). Clinical trials and clinical research: A comprehensive review. Cureus, 15(2). https://doi.org/10.7759/cureus.35077 
 2. Rohilla, A., Singh, R. K., Sharma, D., Keshari, R., & Kushnoor, A. (2013). Phases of clinical trials: A review. Ijpcbs.com. https://www.ijpcbs.com/articles/phases-of-clinical-trials-a-review.pdf 
 3. Katz, B. E., Aleksander, E., Valerija, M., & Zibert, J. R. (2019, January 4). Optimize clinical trial recruitment with digital platforms. Dermatology Times. https://www.dermatologytimes.com/view/optimize-clinical-trial-recruitment-digital-platforms 
@@ -131,7 +134,12 @@ In conclusion, a digitalized and automated patient screening and recruitment pro
 5. Pufahl, L., Zerbato, F., Weber, B., & Weber, I. (2022). BPMN in healthcare: Challenges and best practices. Information Systems, 107(102013), 102013. https://doi.org/10.1016/j.is.2022.102013 
 
 ## Disclaimer 📝
-- 
+1. This project is a digitalized clinical trial project that involves the collection, processing, and storage of sensitive volunteer and patient data.
+2. All data collected as part of this clinical trial is treated with the utmost confidentiality and is securely stored.
+Participation in this clinical trial is voluntary, and participants have the right to withdraw at any stage.By participating, volunteers and patients acknowledge and consent to the collection and processing of their sensitive data for research purposes.
+3. Data collected as part of this clinical trial is used solely for research purposes and will not be sold or shared with third parties for commercial purposes.
+4. For questions or concerns regarding data privacy and security, participants can contact gmake7896@gmail.com
+
 
  
 

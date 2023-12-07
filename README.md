@@ -97,15 +97,26 @@ Automation and optimization of the patient screening and patient recruitment pro
 
 ### Make Scenarios
 
-1. Sending an Email: Are you eligible for this clinical trial?
- An email is sent to a potential volunteer, "Do you want to participate in Clinical Trial 1?". Once the potential volunteer provides their consent, their eligibility for the participating in the trial is checked.
+1. Sending an Email: Informing patient/volunteer about eligibility
+   
+   An email is sent to a potential volunteer informing him/her about the eligibility to the clinical trial. If the volunteer is still available to participate he/she can click on the google forms link and give its informed consent.
 
-![Screenshot 2023-12-05 211140](https://github.com/DigiBP/Team-Rivella/assets/149072194/7195242d-ede7-4f7e-96a7-7727d3de0821)
+<img width="800" alt="Make - send email" src="https://github.com/DigiBP/Team-Rivella/assets/149072158/29b58f49-0c39-47b7-aef0-779a92fea889">
 
-2. Clinical trial participation conformation  
-Once the elgibility of the volunteer is confirmed, they recieve an Informed Consent Form (ICF) to fill out. Their information is stored on a patient database in a tabular form automatically. The database updates every 15 minutes to check for new changes.
 
-![Screenshot 2023-12-05 210233](https://github.com/DigiBP/Team-Rivella/assets/149072194/36a79d03-38b8-4eaa-bdf4-1a105426e3b1)
+2. Adding volunteer to database
+   
+   Once the informed consent of the volunteer is confirmed, their patient_id is inserted in to a google sheet (acting as database in this case).
+
+<img width="800" alt="Make - add patient to database" src="https://github.com/DigiBP/Team-Rivella/assets/149072158/e653bdd1-28f6-4e29-ad4e-a592d472d0d4">
+
+
+3. Checking the database for a specific patient
+   
+   The external task retrieves patient_id from the Camunda process and checks if the volunteer has been inserted in to the google sheets. If that is the case it sends back a complete post request to the process.
+
+<img width="811" alt="Make - check if patient has been added to database" src="https://github.com/DigiBP/Team-Rivella/assets/149072158/aedbab22-006b-47b2-be23-e22f9a10de83">
+
 
 ### Flask API - acting as EHR database
 Simulates EHR database, providing patient medical records to users with password access. The API routes are secured by JWT authentication. Using JWT authentity the user only receives the medical data he's allowed to access. Getting basic patient information such as last name, first name, date of birth can be achieved via "/patient_data". Lab data is accessed via "/lab_data".

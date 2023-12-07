@@ -46,7 +46,7 @@ Business process modelling has been recognized as an important means in the reor
 - Shorten Clinical Trial Timelines
 - Reduce Costs
 
-A major contributor to clinical trial delays and a failure to reach clinical research targets is not reaching patient recruitment targets. Our research indicates that leveraging digital strategies for patient recruitment in clinical trials can expedite the recruitment process and potentially mitigate trial delays (Katz et. al., 2019). Digitalzed patient recruitment is not only more time-efficient but also more cost-effective compared to traditional offline methods (Brøgger-Mikkelsen et.al., 2020).  
+A major contributor to clinical trial delays and a failure to reach clinical research targets is not reaching patient recruitment targets. The research indicates that leveraging digital strategies for patient recruitment in clinical trials can expedite the recruitment process and potentially mitigate trial delays (Katz et. al., 2019). Digitalzed patient recruitment is not only more time-efficient but also more cost-effective compared to traditional offline methods (Brøgger-Mikkelsen et.al., 2020).  
 
 ### Project Goals 🎯
 
@@ -55,9 +55,25 @@ Automation and optimization of the patient screening and patient recruitment pro
 ## Process Flow 
 
 ### How to run 🚀
-1. Start (User Information)
-2. Open 
-3. User tasks and Recieving Emails
+1. Run both files "External Worker - fetch data.ipynb" and "Flask API - EHR Database.ipynb"
+
+    To run the external worker script involving External Worker - fetch data.ipynb, ensure you have both External Worker - fetch data.ipynb and cam.py in the same directory. Open your platform and execute the external worker file.
+
+    For Flask API - EHR Database.ipynb and its interdependency with CSV files lab_results_10_tests_patients_1_15_NA.csv and patient_information.csv, place all files in a directory. Open your platform and run Flask API - EHR Database.ipynb. As the API is dependent on the CSV files, ensure those files are correctly referenced or imported within the script for seamless operation. Make sure to specify the URL endpoint of the API, ensuring it's accurately referenced to establish the connection and retrieve data from the API.
+
+2. Deploy the Camunda process on https://digibp.herokuapp.com/engine-rest and start the process "ClinicalTrialCheck"
+
+3. Claim the first task. Input username and password for a random patient (sample access information can be found in patient_information.csv) and add the URL endpoint described in the previous step. Select the clinical trial you intend to check the eligibility for.
+
+4. Claim task "Confirm patient data and eligibility". The external worker returned basic information about the patient and information about the eligibility for the specified clinical trial. Briefly check the information and click on complete.
+
+5. An email will be sent to the specific patient informing him/her about the eligibility for the clinical trial. If the patient is not eligible the process will end here.
+
+6. If the patient is eligible wait for the patient to fill out the informed consent form.
+
+7. Once the patient has given its consent, an external task will add the patient to the clinical trial database. You will be notified about it in the task "Show message". A brief message about the patient_id and when this patient was added to the database will appear. Click on complete. The process ends
+
+
 
 ### Issues with the current Clinical Trial process 🐛
 1. Patient Engagement and Communication:
@@ -103,7 +119,7 @@ Depending on the clinical trial number, this worker can quickly and easily asses
 
 ### Benefits ✅
 1. Potentially shortens clinical trial timelines
-2. Increases volunteer and patient engagement in Phase 1 safety trials
+2. Increases volunteer and patient engagement in clinical trials
 3. Reduces clinical trial management and conduct costs
 4. Leverages technology
 

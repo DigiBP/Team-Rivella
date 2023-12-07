@@ -46,7 +46,7 @@ Business process modelling has been recognized as an important means in the reor
 - Shorten Clinical Trial Timelines
 - Reduce Costs
 
-A major contributor to clinical trial delays and a failure to reach clinical research targets is not reaching patient recruitment targets. The research indicates that leveraging digital strategies for patient recruitment in clinical trials can expedite the recruitment process and potentially mitigate trial delays (Katz et. al., 2019). Digitalzed patient recruitment is not only more time-efficient but also more cost-effective compared to traditional offline methods (Brøgger-Mikkelsen et.al., 2020).  
+A major contributor to clinical trial delays and a failure to reach clinical research targets is not reaching patient recruitment targets. The research indicates that leveraging digital strategies for patient recruitment in clinical trials can expedite the recruitment process and potentially mitigate trial delays (Katz et. al., 2019). Digitalized patient recruitment is not only more time-efficient but also more cost-effective compared to traditional offline methods (Brøgger-Mikkelsen et.al., 2020).  
 
 ### Project Goals 🎯
 
@@ -71,7 +71,7 @@ Automation and optimization of the patient screening and patient recruitment pro
 
 6. If the patient is eligible wait for the patient to fill out the informed consent form.
 
-7. Once the patient has given its consent, an external task will add the patient to the clinical trial database. You will be notified about it in the task "Show message". A brief message about the patient_id and when this patient was added to the database will appear. Click on complete. The process ends
+7. Once the patient has given its consent, an external task will add the patient to the clinical trial database. You will be notified about it in the task "Show message". A brief message about the patient_id and when this patient was added to the database will appear. Click on complete. The process ends.
 
 
 

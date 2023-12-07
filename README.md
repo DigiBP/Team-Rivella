@@ -24,12 +24,11 @@
 |Tim Frietsch|tim.frietsch@students.fhnw.ch|
 
 ## Links🔗
-- API Deepnote(Latest Version): 
-- Camunda Model:
-- Make (1):
-- Make (2):
-- Google Forms (Informed Consent Form):
-- Google Sheet (Patient Database):  
+- Deepnote (External worker): https://deepnote.com/workspace/flask-project-testing-ad2085cb-80f7-4457-9e62-3f73d24fce59/project/Main-Code-c719ecc6-7add-42e5-96f8-239e9c0d87b1/notebook/External%20Worker%20-%20fetch%20data-6c15afbbea1341b09f7ad9b7d193e2f8
+- Deepnote (API EHR): https://deepnote.com/workspace/flask-project-testing-ad2085cb-80f7-4457-9e62-3f73d24fce59/project/Main-Code-c719ecc6-7add-42e5-96f8-239e9c0d87b1/notebook/Flask%20-%20API-f1da699b5c6548e2963b2d788a440f18
+- Make: https://eu2.make.com/198153/team/dashboard
+- Google Forms (Informed Consent Form): https://docs.google.com/forms/d/e/1FAIpQLSclmsXFrDT53H1n6qVILp1mwzuchJ3oonDq3I2rf-nfsjKRQg/viewform?usp=sf_link
+
 
 ## Coaches
 - Charuta Pande
